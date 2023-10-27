@@ -8,6 +8,7 @@ export interface HitCounterProps {
   downstream: lambda.IFunction;
 }
 
+
 export class HitCounter extends Construct {
   /** allows accessing the counter function */
   public readonly handler: lambda.Function;
